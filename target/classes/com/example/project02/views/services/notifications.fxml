@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="397.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <tabs>
+        <Tab text="Monthly outdate">
+            <content>
+                <ScrollPane hbarPolicy="NEVER" prefHeight="466.0" prefWidth="397.0">
+                    <content>
+                        <VBox alignment="TOP_CENTER" prefHeight="504.0" prefWidth="388.0" spacing="5.0" style="-fx-background-color: #DFE0DA;">
+                            <children>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="10.0" />
+                                    </VBox.margin>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img1" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username1" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate1" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img2" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username2" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate2" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img3" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username3" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate3" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img4" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username4" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate4" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img5" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username5" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate5" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="66.0" prefWidth="338.0" style="-fx-border-color: dodgerblue; -fx-background-color: white;">
+                                    <children>
+                                        <Circle fx:id="img6" fill="DODGERBLUE" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </Circle>
+                                        <VBox prefHeight="66.0" prefWidth="178.0" spacing="8.0">
+                                            <children>
+                                                <Label fx:id="username6" text="Mohamed Ogleh" textFill="#363434">
+                                                    <font>
+                                                        <Font name="Arial" size="17.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" top="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                                <Label fx:id="expdate6" prefHeight="20.0" prefWidth="161.0" text="Exp date: 20/10/22" textFill="#4a4848">
+                                                    <font>
+                                                        <Font size="13.0" />
+                                                    </font>
+                                                    <VBox.margin>
+                                                        <Insets left="10.0" />
+                                                    </VBox.margin>
+                                                </Label>
+                                            </children>
+                                        </VBox>
+                                        <JFXButton prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: dodgerblue;" text="Update" textFill="#eee9e9">
+                                            <font>
+                                                <Font name="Arial" size="12.0" />
+                                            </font>
+                                            <HBox.margin>
+                                                <Insets left="10.0" />
+                                            </HBox.margin>
+                                        </JFXButton>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </content>
+        </Tab>
+        <Tab text="Shortly outdate">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+        </Tab>
+    </tabs>
+   <effect>
+      <DropShadow height="32.72" radius="16.595" width="35.66" />
+   </effect>
+</TabPane>

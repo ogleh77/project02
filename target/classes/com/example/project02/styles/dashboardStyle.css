@@ -1,0 +1,34 @@
+.dashboard {
+    -fx-pref-height: 709;
+    -fx-pref-width: 1086;
+    -fx-background-color: #F2F2F2;
+}
+
+.top-Pane {
+    -fx-background-color: #042B48;
+}
+
+.side-pane {
+    -fx-background-color: #132332;
+}
+
+.btns {
+    -fx-background-color: #042B48;
+}
+
+.btns:hover {
+    -fx-background-color: dodgerblue;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.menu:hover {
+    -fx-background-color: dodgerblue;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.cancel:hover {
+    -fx-background-color: red;
+    -fx-background-radius: 10;
+}

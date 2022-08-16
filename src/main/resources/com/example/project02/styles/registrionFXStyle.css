@@ -1,0 +1,22 @@
+.registrations-pane {
+    -fx-pref-width: 1020;
+    -fx-pref-height: 662;
+    -fx-background-color: #ddeeee;
+
+}
+
+.combo-btn{
+    -fx-background-color: #03fcb9;
+    -fx-pref-height: 36;
+    -fx-pref-width: 100;
+    -fx-font-size: 14;
+    -fx-font-family: "Roboto Light";
+}
+
+.shift-combo-btn{
+    -fx-background-color: #03fcb9;
+    -fx-pref-height: 36;
+    -fx-pref-width: 280;
+    -fx-font-size: 14;
+    -fx-font-family: "Roboto Light";
+}

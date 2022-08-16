@@ -1,0 +1,29 @@
+.registrations-pane{
+    -fx-pref-width: 1020;
+    -fx-pref-height: 662;
+    -fx-background-image: url('../images/A-Beginners-Guide-to-Building-Muscle-at-the-Gym.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1020 662;
+    -fx-background-position: center center;
+}
+.top-pane{
+    -fx-pref-width: 1020;
+    -fx-pref-height: 662;
+    -fx-background-color: black;
+    -fx-opacity: 0.75;
+}
+.combo-btn{
+    -fx-background-color: #03fcb9;
+    -fx-pref-height: 36;
+    -fx-pref-width: 100;
+    -fx-font-size: 14;
+    -fx-font-family: "Roboto Light";
+}
+
+.shift-combo-btn{
+    -fx-background-color: #03fcb9;
+    -fx-pref-height: 36;
+    -fx-pref-width: 280;
+    -fx-font-size: 14;
+    -fx-font-family: "Roboto Light";
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="registrations-pane" stylesheets="@../styles/registrionFXStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project02.conrtollers.RegistrationController">
+   <children>
+      <VBox layoutX="655.0" layoutY="346.0">
+         <children>
+            <ImageView fx:id="imgView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/27796e0eb8742d4465f6fb3ffac420d4.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow height="35.66" radius="15.864999999999998" spread="0.77" width="29.8">
+               <color>
+                  <Color red="0.7763158082962036" green="0.7367811799049377" blue="0.7367811799049377" />
+               </color>
+            </DropShadow>
+         </effect>
+      </VBox>
+      <TextField fx:id="discount" layoutX="163.0" layoutY="244.0" prefHeight="36.0" prefWidth="140.0" promptText="amount" />
+      <Label layoutX="163.0" layoutY="222.0" text="discouunt" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="147.0" text="phone" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="598.0" layoutY="577.0" onAction="#saveHandler" prefHeight="40.0" prefWidth="128.0" style="-fx-background-color: #03fcb9;" text="Save">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="clear" buttonType="RAISED" layoutX="789.0" layoutY="577.0" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: red;" text="Clear " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="701.0" layoutY="517.0" onAction="#uploadHandler" prefHeight="40.0" prefWidth="140.0" style="-fx-background-color: #4197EB;" text="Upload image" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <TextField fx:id="phone" layoutX="160.0" layoutY="171.0" prefHeight="36.0" prefWidth="284.0" promptText="Enter phone number" />
+      <JFXCheckBox fx:id="yes_discount" checkedColor="#2b5448" layoutX="327.0" layoutY="253.0" onAction="#clicked" text="make a discount" textFill="#2d403a" unCheckedColor="#4a4545">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <Label layoutX="569.0" layoutY="229.0" text="Gender" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="male" layoutX="660.0" layoutY="229.0" text="Male" textFill="#2d403a">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+         <selectedColor>
+            <Color red="0.16862745583057404" green="0.3294117748737335" blue="0.2823529541492462" />
+         </selectedColor>
+         <unSelectedColor>
+            <Color red="0.3684210479259491" green="0.31895712018013" blue="0.31895712018013" />
+         </unSelectedColor>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="female" layoutX="780.0" layoutY="229.0" text="Female" textFill="#505f61">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+         <selectedColor>
+            <Color red="0.16862745583057404" green="0.3294117748737335" blue="0.2823529541492462" />
+         </selectedColor>
+         <unSelectedColor>
+            <Color red="0.3684210479259491" green="0.31895712018013" blue="0.31895712018013" />
+         </unSelectedColor>
+      </JFXRadioButton>
+      <ComboBox fx:id="shift" layoutX="163.0" layoutY="314.0" prefHeight="34.0" prefWidth="284.0" promptText="choose shift" styleClass="shift-combo-btn" />
+      <Label layoutX="163.0" layoutY="289.0" text="Shift" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="weight" layoutX="163.0" layoutY="394.0" prefHeight="36.0" prefWidth="168.0" promptText="initial weight" />
+      <Label layoutX="162.0" layoutY="368.0" text="weight" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="weight_type" layoutX="347.0" layoutY="394.0" prefHeight="34.0" prefWidth="100.0" promptText="KG" styleClass="combo-btn" />
+      <JFXCheckBox fx:id="poxing" checkedColor="#2b5448" layoutX="164.0" layoutY="468.0" text="Poxing" textFill="#2d403a" unCheckedColor="#4a4545">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXCheckBox>
+      <TextField fx:id="firstname" layoutX="159.0" layoutY="101.0" prefHeight="36.0" prefWidth="284.0" promptText="Enter first name" />
+      <Label layoutX="157.0" layoutY="78.0" prefHeight="16.0" prefWidth="90.0" text="first-name" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lastname" layoutX="565.0" layoutY="99.0" prefHeight="36.0" prefWidth="307.0" promptText="Enter last name" />
+      <Label layoutX="567.0" layoutY="76.0" text="last-name" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amountPaid" editable="false" layoutX="679.0" layoutY="168.0" opacity="0.59" prefHeight="36.0" prefWidth="197.0" promptText="amount" text="12" />
+      <Label layoutX="568.0" layoutY="144.0" text="amount paid" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="paidby" layoutX="566.0" layoutY="168.0" prefHeight="34.0" prefWidth="100.0" promptText="Paid By" styleClass="combo-btn" />
+      <Label layoutX="149.0" layoutY="537.0" prefHeight="24.0" prefWidth="162.0" text="Registration Form" textFill="#3e6157">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="563.0" prefHeight="24.0" prefWidth="237.0" text="All the feilds are mondotory except weight" textFill="#5e7573">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="64.0" layoutY="14.0" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: #03fcb9;" text="Back to home">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </JFXButton>
+      <ComboBox layoutX="247.0" layoutY="460.0" prefHeight="34.0" prefWidth="200.0" promptText="coose vip box" />
+      <Label layoutX="568.0" layoutY="260.0" text="exp date" textFill="#9e9898">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="568.0" layoutY="287.0" prefHeight="36.0" prefWidth="307.0" promptText="dd-mm-yyyy" />
+   </children>
+</AnchorPane>
